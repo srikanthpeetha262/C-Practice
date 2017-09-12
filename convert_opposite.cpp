@@ -26,7 +26,9 @@ void convertOpposite(string &line)
 			line[i] = line[i] - 32;
 			upper = 1;
 			
-			//the above IF statement will convert the charecter from lower case to upper case. If we do not make "upper" variable as 1, then the next IF statement will convert the charecter to lower case again.
+			//the above IF statement will convert the charecter from lower case to upper case. 
+			//If we do not make "upper" variable as 1, then the next IF statement will convert the
+			//charecter to lower case again.
 		}
 		
 		if(line[i]>='A' && line[i]<='Z' && upper == 0)
